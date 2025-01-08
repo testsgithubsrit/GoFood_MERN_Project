@@ -1,0 +1,30 @@
+@media screen and (max-width: 988px) {
+    .btn1 {
+        margin-top: 10px;
+    }
+}
+.navbar{
+    position: sticky;
+    z-index: 9999;
+}
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    color: #ff6347; /* Tomato color */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  
+.nav-link:hover{
+   
+    text-decoration: underline;
+    /*font-size: 25px;
+    text-shadow: 0 0  10px white;
+opacity: 0.8;*/
+}
+
+.nav-link{
+    font-weight: bold;
+    font-size: 18px;
+}
